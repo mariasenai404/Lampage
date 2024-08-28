@@ -1,0 +1,62 @@
+body{
+    background-color: #ECE5DD;
+}
+header{
+    background-color:#075E54;
+    color: #ECE5DD;
+    border-radius: 20px;
+}
+
+.formulario{
+    display: flex;
+    width: 325px;
+    height: 400px;
+    background-color:#075E54;
+    border-radius: 30px;
+    justify-content: space-around;
+    align-items: center;
+    color: #ECE5DD ;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    width: 700px;
+    border-radius:30px;
+}
+button{
+    border-radius: 20px;
+    padding: 15px;
+    width: 70%;
+    color:#ECE5DD ;
+    background-color: #25D366;
+    cursor: pointer;
+    transition: bachgraund-color 0.3s ease;
+}
+
+
+footer{
+    background-color: #075E54;
+    color: #ECE5DD  ;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: black;
+}
+#nome:focus{
+    background-color: rgb(243, 185, 245);
+    border: 3px solid rgb(111, 72, 250);
+}
+
+#telefone:focus{
+    background-color: rgb(243, 185, 245);
+    border: 3px solid rgb(111, 72, 250);
+}
+
+#email:valid{
+color: blue
+}
+
